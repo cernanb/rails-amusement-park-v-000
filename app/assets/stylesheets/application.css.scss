@@ -23,3 +23,59 @@ body {
   padding-top: 70px;
   padding-bottom: 30px;
 }
+
+.left-pic {
+    float: left;
+    position: relative;
+    margin: 5px;
+}
+
+.right-info {
+    margin: 5px;
+    float: left;
+    position: relative;
+    height: 325px;
+    width: 550px;
+    background-color: #EEEEEE;
+    text-align: center;
+    padding: 80px 60px 20px 60px;
+    border-radius: 7px;
+}
+
+.center {
+    text-align: center;
+}
+
+.pic, .info {
+    padding: 20px;
+    display: inline-block;
+    background-color: #EEEEEE;
+    border-radius: 7px;
+    vertical-align: middle;
+    margin: 10px;
+}
+
+.info {
+    height: 290px;
+    text-align: left;
+}
+
+div.field, div.actions {
+    margin-bottom: 10px;
+}
+
+#flash_notice {
+  color: green;
+}
+
+
+.alert {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+.alert {
+    color: white;
+    background-color: red;
+}
